@@ -3,7 +3,7 @@ import {
   getApplicationStats,
   getCurrentUser,
   updateUser,
-} from "../controllers/UserController.js";
+} from "../controllers/userController.js";
 import { validateUpdateUserInput } from "../middlewares/validationMiddleware.js";
 import {
   authorizePermissions,
